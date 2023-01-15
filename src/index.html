@@ -1,25 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8"/>
-    <title></title>
-    <link rel="stylesheet" href="assets/styles.css">
-  </head>
-  <body>
-    <h1>Number guessing game</h1>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tehtävä 1</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+            <a href="index.html">Etusivu</a>
+            <a href="">jotain</a>
+            <a href="">jotain</a>
+            <a href="">jotain</a>
 
-    <p class="info-text">We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+    </nav>
+  </header>
+  <main>
+    <div class="grid-container">
+      <header class="grid-header">
+        <h1>Lounas</h1>
+      </header>
 
-    <div class="form">
-      <label for="guessField">Enter a guess: </label>
-      <input type="text" id="guessField" class="guessField">
-      <input type="submit" value="Submit guess" class="guessSubmit">
-    </div>
+      <article class="grid-text">
+        <div id="container">
+          <h1>Lunch menu</h1>
+          <div id="menu">
 
-    <div class="resultParas">
-      <p class="guesses"></p>
-      <p class="lastResult"></p>
-      <p class="lowOrHi"></p>
-    </div>
-  </body>
+          </div>
+          <div id="buttonGroup">
+            <button id="changeLang" class="button">Change the language</button>
+            <button id="random"class="button">Random dish</button>
+            <button id="sort"class="button">Sort dishes</button>
+          </div>
+        </div>
+  </main>
+</div>
+
+</body>
 </html>
