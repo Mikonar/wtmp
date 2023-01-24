@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title></title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
@@ -16,7 +17,7 @@
       <input type="submit" value="Submit guess" class="guessSubmit">
     </div>
 
-    <div class="resultParas">
+    <div class="bestresult">
       <p class="guesses"></p>
       <p class="lastResult"></p>
       <p class="lowOrHi"></p>
